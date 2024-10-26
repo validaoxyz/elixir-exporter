@@ -42,5 +42,9 @@ This script parses Docker logs from an elixir validator, extracts relevant metri
    curl http://localhost:8086/metrics to view the metrics.
    ```
 
+## Example dashboard
+![image](https://github.com/user-attachments/assets/c59198f3-8ced-4961-90d6-2a53e679ef9f)
+
+
 ## Logging
 Logs are set to WARNING level by default but can be adjusted within the `logging.basicConfig` setup.
