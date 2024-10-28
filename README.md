@@ -22,6 +22,14 @@ This script parses Docker logs from an elixir validator, extracts relevant metri
   - `position`, `volatility`, `bid_price`, `ask_price`: Market data values for each symbol.
   - `uptime_percentage`: Validator uptime percentage.
 
+- **Rate Metrics**
+  - `Rate of Data Frames Processed`: Calculates the rate of data frames processed per 5 minutes, indicating market activity and throughput.
+  - `Rate of Proposal Requests and Responses:`: 
+    - `Request Rate`: Measures the rate of proposal requests sent, highlighting consensus participation.
+    - `Response Rate`: Measures the rate of proposal responses received, indicating network health and response handling.
+  - `Rate of Strategy Executions:`: Tracks how often the validator executes strategies, providing insights into operational efficiency and strategy   effectiveness.
+  - `Rate of Authorization Requests Sent:`: Monitors the frequency of authorization requests, useful for tracking communication and security interactions over time.
+
 - **Info**
   - `validator_info`, `software_version`, `beneficiary_address`, `validator_address`: Stores basic information about the validator.
 
