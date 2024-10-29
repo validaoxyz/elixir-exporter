@@ -51,7 +51,7 @@ This script parses Docker logs from an elixir validator, extracts relevant metri
    ```
 
 ## Example dashboard
-![image](https://github.com/user-attachments/assets/c59198f3-8ced-4961-90d6-2a53e679ef9f)
+![grafana-dashboard](https://github.com/user-attachments/assets/606ae1f4-c71b-4bce-80bb-33aea28244b4)
 
 
 ## Logging
